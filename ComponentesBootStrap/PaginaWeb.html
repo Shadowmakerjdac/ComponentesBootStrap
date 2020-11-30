@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Componentes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="stiles.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Inicio del Software</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Pagina de Apoyo </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Lista desplegable
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">css</a>
+                            <a class="dropdown-item" href="#">html</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">javascript</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ingresa para ver la
+                            opcion</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Busquedas" aria-label="Busquedas">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide mt-3 carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleSlidesOnly" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleSlidesOnly" data-slide-to="1"></li>
+                <li data-target="#carouselExampleSlidesOnly" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval=5000>
+                    <img src="img/imagen2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Carrusel 1</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/imagen3.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Carrusel 2</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/imagen.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Carrusel 3</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+        <div class="row my-4">
+            <div class="jumbotron col-7 mx-3 my-1">
+                <h1 class="display-2">Bienvenido a mi portal!!!</h1>
+                <p>Esto seria un Jumbotron</p>
+                <hr>
+                <a href="#" class="btn btn-dark btn-lg text-center">Vamos!!!</a>
+            </div>
+            <div class="jumbotron col-4 mx-3 my-1">
+                <h2 class="display-4">Conoce mas</h2>
+                <hr>
+                <span class="col text-center">
+                    <a href="#" class="btn btn-primary btn-xs text-center">Login!!!</a>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="row col-12 p-0 m-0">
+            <div class="card col m-2">
+                <img class="card-img-top mt-2" src="img/imagen.jpeg">
+                <div class="card-body">
+                    <h3 class="card-title">Queres saber que es computacion en la nube???</h3>
+                    <p class="card-text">Entra aca, que queremos que aprendas!!!!</p>
+                </div>
+            </div>
+
+            <div class="card col m-2">
+                <img class="card-img-top mt-2" src="img/imagen2.jpeg">
+                <div class="card-body">
+                    <h3 class="card-title">Te interesa???</h3>
+                    <p class="card-text">Entra aca, que queremos que aprendas!!!!</p>
+                </div>
+            </div>
+
+            <div class="card col m-2">
+                <img class="card-img-top mt-2" src="img/imagen3.jpeg">
+                <div class="card-body">
+                    <h3 class="card-title">No te quedes sin tu cupo???</h3>
+                    <p class="card-text">Entra aca, que queremos que aprendas!!!!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row col-12 p-0 m-0">
+            <div class="card col m-2">
+                <img class="card-img-top" src="img/imagen3.jpeg">
+                <div class="card-body">
+                    <h3 class="card-title">Queres saber que es computacion en la nube???</h3>
+                    <p class="card-text">Entra aca, que queremos que aprendas!!!!</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row col-12 p-0 m-0">
+            <div class="card col m-2">
+                <img class="card-img-top mt-2" src="img/imagen.jpeg">
+                <div class="card-body">
+                    <h3 class="card-title">Queres saber que es computacion en la nube???</h3>
+                    <p class="card-text">Entra aca, que queremos que aprendas!!!!</p>
+                </div>
+            </div>
+
+            <div class="card col m-2">
+                <img class="card-img-top mt-2" src="img/imagen2.jpeg">
+                <div class="card-body">
+                    <h3 class="card-title">Te interesa???</h3>
+                    <p class="card-text">Entra aca, que queremos que aprendas!!!!</p>
+                </div>
+            </div>
+
+            <div class="card col m-2">
+                <img class="card-img-top mt-2" src="img/imagen3.jpeg">
+                <div class="card-body">
+                    <h3 class="card-title">No te quedes sin tu cupo???</h3>
+                    <p class="card-text">Entra aca, que queremos que aprendas!!!!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row col-12 p-0 m-0">
+            <div class="card col m-2">
+                <img class="card-img-top" src="img/imagen3.jpeg">
+                <div class="card-body">
+                    <h3 class="card-title">Queres saber que es computacion en la nube???</h3>
+                    <p class="card-text">Entra aca, que queremos que aprendas!!!!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-5">
+                <div class="alert alert-success alert-dismissible fade show">
+                    Gracias por Aprender, <br> <strong>Espero te sirva de por vida!!</strong>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">Oki Doki</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 mt-3">
+                <h4>Formulario</h4>
+                <hr>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+            </div>
+            <div class="col-6 mt-3">
+                <h4>Collapsible</h4>
+                <hr>
+                <a class="btn btn-dark mt-3" data-toggle="collapse" href="#Aparecido">Aparece</a>
+                <div class="collapse" id="Aparecido">
+                    <div class="card card-body bg-dark text-white mt-2">Esto es lo que aparecera</div>
+                    <img src="img/imagen.jpeg"></img>
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-5">
+            <div class="alert alert-dark col-12" role="alert">
+                A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                like.
+                <hr>
+            </div>
+
+            <div class="row col-12">
+                <div class="col-6">
+                    <h6>Badge <span class="badge badge-dark">Badge Dark</span></h6>
+                </div>
+                <div class="btn-group col-6" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary">Left</button>
+                    <button type="button" class="btn btn-secondary">Middle</button>
+                    <button type="button" class="btn btn-secondary">Right</button>
+                </div>
+                <hr>
+
+            </div>
+
+            <div class="row col-12 mt-5">
+                <!-- Button trigger modal -->
+                <div class="col-6">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+                        Boton que abre un MODAL
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Que ha pasado????
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary">Guarda</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</html>
